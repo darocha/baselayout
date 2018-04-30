@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\components",
+    "\\components\\authorization",
+    "\\components\\screens",
+    "\\components\\screens\\BaggingStation",
+    "\\components\\screens\\BaseStation",
+    "\\components\\sidebar",
+    "\\redux",
+    "\\redux\\reducers"
+  ],
+  "SelectedNode": "\\components\\screens\\BaggingStation\\BaggingStation.js",
+  "PreviewInSolutionExplorer": false
+}

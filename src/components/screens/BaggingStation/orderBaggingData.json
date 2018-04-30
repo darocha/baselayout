@@ -1,0 +1,101 @@
+[
+
+  {
+
+    "ChuteID": "21",
+    "PrinterID": "1",
+    "ToteID": "26593 / 01",
+    "BagSqnceNumbr": "1",
+    "IDNumber": "1",
+    "First": "Mark",
+    "Last": "Somethhing",
+    "ScriptID": "1246453",
+    "ItemCount": "5",
+    "DeliveryGrpID": "336723",
+    "OversizeOrder": "Yes"
+  },
+  {
+
+    "ChuteID": "22",
+    "PrinterID": "2",
+    "ToteID": "26593 / 02",
+    "BagSqnceNumbr": "2",
+    "IDNumber": "3",
+    "First": "Lisa",
+    "Last": "SomethhingElse",
+    "ScriptID": "2562341",
+    "ItemCount": "5",
+    "DeliveryGrpID": "453674",
+    "OversizeOrder": "No"
+  },
+  {
+
+    "ChuteID": "23",
+    "PrinterID": "6",
+    "ToteID": "26594 / 04",
+    "BagSqnceNumbr": "3",
+    "IDNumber": "9",
+    "First": "Paul",
+    "Last": "SomethhingElse",
+    "ScriptID": "2333424",
+    "ItemCount": "4",
+    "DeliveryGrpID": "536763",
+    "OversizeOrder": "No"
+  },
+  {
+
+    "ChuteID": "24",
+    "PrinterID": "4",
+    "ToteID": "26594 / 07",
+    "BagSqnceNumbr": "4",
+    "IDNumber": "2",
+    "First": "Simon",
+    "Last": "SomethhingElse",
+    "ScriptID": "7556754",
+    "ItemCount": "5",
+    "DeliveryGrpID": "636766",
+    "OversizeOrder": "No"
+  },
+  {
+
+    "ChuteID": "25",
+    "PrinterID": "3",
+    "ToteID": "26599 / 16",
+    "BagSqnceNumbr": "5",
+    "IDNumber": "3",
+    "First": "Tim",
+    "Last": "SomethhingElse",
+    "ScriptID": "3657864",
+    "ItemCount": "3",
+    "DeliveryGrpID": "363636",
+    "OversizeOrder": "No"
+  },
+  {
+
+    "ChuteID": "26",
+    "PrinterID": "5",
+    "ToteID": "26599 / 09",
+    "BagSqnceNumbr": "4",
+    "IDNumber": "4",
+    "First": "Ryan",
+    "Last": "SomethhingElse",
+    "ScriptID": "7556754",
+    "ItemCount": "4",
+    "DeliveryGrpID": "836797",
+    "OversizeOrder": "No"
+  },
+  {
+
+    "ChuteID": "27",
+    "PrinterID": "1",
+    "ToteID": "26601 / 01",
+    "BagSqnceNumbr": "5",
+    "IDNumber": "9",
+    "First": "Kenny",
+    "Last": "SomethhingElse",
+    "ScriptID": "3566564",
+    "ItemCount": "5",
+    "DeliveryGrpID": "136721",
+    "OversizeOrder": "No"
+  }
+]

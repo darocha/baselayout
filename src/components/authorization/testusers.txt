@@ -1,0 +1,49 @@
+
+Json Web Token
+
+KEY
+PKoHHug4y7Rvjw11Jz34dnGnxyR6tA2Q
+
+HS256 
+
+ADMIN TOKEN
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE1MjQ1OTAzODgsImV4cCI6MzMxNDQ2NTc1ODgsImF1ZCI6IkdCSVdlYkFwcCIsInN1YiI6ImFkbWluIiwibmFtZSI6IkFkbWluIiwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbmlzdHJhdG9yIiwic2NvcGVzIjoiYWRtaW5pc3RyYXRvciIsInVzZXJuYW1lIjoiYWRtaW4ifQ.CPM-tQqXFT_LDZnpQkny1eSdTvTok4QkHkpWG1xmLaE
+  
+
+CLAIMS 
+
+{
+    "iss": "Online JWT Builder",
+    "iat": 1524590388,
+    "exp": 33144657588,
+    "aud": "GBIWebApp",
+    "sub": "admin",
+    "name": "Admin",
+    "email": "admin@example.com",
+    "role": "administrator",
+    "scopes": "administrator",
+    "username": "admin"
+}
+
+
+REGULAR USER
+
+KEY
+PKoHHug4y7Rvjw11Jz34dnGnxyR6tA2Q
+
+TOKEN
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE1MjQ1OTAzODgsImV4cCI6MzMxNDQ2NTc1ODgsImF1ZCI6IkdCSVdlYkFwcCIsInN1YiI6Im1hcmNlbG8iLCJuYW1lIjoibWFyY2VsbyIsImVtYWlsIjoibWFyY2Vsb0BleGFtcGxlLmNvbSIsInNjb3BlcyI6InNjcmVlbjEgc2NyZWVuMiBzY3JlZW4zIiwidXNlcm5hbWUiOiJtYXJjZWxvIn0.oO45MP2aHg_kGqIv0_OlP7REBUcarYR_cG5lCCnhVi4
+
+CLAIMS 
+
+{
+    "iss": "Online JWT Builder",
+    "iat": 1524590388,
+    "exp": 33144657588,
+    "aud": "GBIWebApp",
+    "sub": "marcelo",
+    "name": "marcelo",
+    "email": "marcelo@example.com",
+    "scopes": "screen1 screen2 screen3",
+    "username": "marcelo"
+}

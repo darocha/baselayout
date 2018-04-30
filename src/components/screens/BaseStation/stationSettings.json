@@ -1,0 +1,20 @@
+{
+  "MainColumns": [
+    {
+      "Name": "ToteID",
+      "Width": "150px"
+    },
+    {
+      "Name": "ScriptID",
+      "Width": "150px"
+    },
+    {
+      "Name": "Description"
+    }
+  ],
+  "TabsColumns": {
+    "StockCode": "120px",
+    "SupplierDescription": "250px",
+    "PatientID": "120px"
+  }
+}

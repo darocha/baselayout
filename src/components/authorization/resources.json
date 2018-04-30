@@ -1,0 +1,79 @@
+[
+  {
+    "id": "Home",
+    "name": "Home",
+    "url": "/",
+    "orderIndex": 0,
+    "leftNav": true
+  },
+  {
+    "id": "Exception",
+    "name": "Exception",
+    "url": "/exception",
+    "scopes": [ "exceptionstation", "administrator" ],
+    "orderIndex": 6,
+    "leftNav": true
+  },
+  {
+    "id": "PVStation",
+    "name": "PV Station",
+    "url": "/pv",
+    "scopes": [ "pvstation", "administrator" ],
+    "orderIndex": 5,
+    "leftNav": true
+  },
+  {
+    "id": "OrderBagging",
+    "name": "Order Bagging",
+    "url": "/bagging/order",
+    "scopes": [ "baggingstation", "administrator" ],
+    "orderIndex": 4,
+    "leftNav": true
+  },
+  {
+    "id": "BaggingStation",
+    "name": "Bagging Station",
+    "url": "/bagging",
+    "scopes": [ "baggingstation", "administrator" ],
+    "orderIndex": 3,
+    "leftNav": true
+  },
+  {
+    "id": "PickStationManual",
+    "name": "Pick Station",
+    "url": "/pick/manual",
+    "scopes": [ "pickstation", "administrator" ],
+    "orderIndex": 2,
+    "leftNav": true
+  },
+  {
+    "id": "PickStationAutomatic",
+    "name": "Pick Station Automatic",
+    "url": "/pick",
+    "scopes": [ "pickstation", "administrator" ],
+    "orderIndex": 1,
+    "leftNav": true
+  },
+
+  {
+    "id": "Settings",
+    "name": "Settings",
+    "url": "/settings",
+    "scopes": [ "administrator" ],
+    "orderIndex": 7,
+    "leftNav": false
+  },
+  {
+    "id": "Userman",
+    "name": "User Manager",
+    "url": "/userman",
+    "scopes": [ "administrator" ],
+    "orderIndex": 8,
+    "leftNav": false
+  },
+  {
+    "id": "PrivateData",
+    "scopes": [ "administrator" ],
+    "leftNav": false
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "OrderItems": [
+    {
+      "OrderID": "1",
+      "StockCode": "156845",
+      "SupplierDescription": "ASPIRIN SOLUBLE 300MG TABS",
+      "PackSize": "20",
+      "BatchNumber": "4582465",
+      "ExpirationDate": "01/01/2019"
+    }
+  ],
+  "PatientInfo": [
+    {
+      "PatientID": "123456",
+      "FirstName": "FHULUFHUWANI",
+      "LastName": "DLAMINI"
+    }
+  ],
+  "LocationDetails": [
+    {
+      "LocationID": "1",
+      "LastKnownLocation": "LOOP 1 PRINTER ID A0172",
+      "ItemOrigin": "PICK 01, 23, 03, 12"
+    }
+  ]
+}

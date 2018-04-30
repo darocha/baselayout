@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+</head>
+<body>
+
+<style>
+    
+    html, body { padding: 0; margin: 0; height: 100%; }
+
+    .container {
+        display: flex;
+        flex: 1;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .centerColumn {
+        display: flex;
+        flex: 1;
+        background: #dadada;
+        height: 100%;
+    }
+
+    .sidebar {
+        display: flex;
+        flex: 1;
+        background: green;
+        height: 100%;
+        min-width: 300px;
+        max-width: 300px;
+        width: 300px;
+        transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1) 0s;
+        overflow: hidden;
+    }
+
+    .sidebar-left {
+        background: #c4c4c4;
+    }
+
+    .sidebar-right {
+        background: #c4c4c4;
+    }
+
+    .sidebar-left.collapsed { 
+        margin-left:-300px; 
+    }
+    .sidebar-right.collapsed { 
+        margin-right:-300px; 
+    }
+
+</style>
+
+<div class="container">
+    <div id="leftSidebar" class="sidebar sidebar-left collapsed"></div>
+    <div id="centerColumn" class="centerColumn">
+        <div style="padding:20px;margin:20px;background:whitesmoke;flex:1;">
+            
+        </div>
+    </div>
+    <div id="rightSidebar" class="sidebar sidebar-right collapsed"></div>
+</div>
+
+<script src="../js/hammer.min.js"></script>
+
+<script>
+
+    function addClass(className) {
+        var a = this;
+        if (a.classList) {
+            a.classList.add(className);
+        } else {
+            a.className += ' ' + className;
+        }
+    }
+
+    function removeClass(className) {
+        var a = this;
+        if (a.classList) {
+            a.classList.remove(className);
+        } else {
+            a.className.replace(className, '');
+        }
+    }
+    
+    // https://jsperf.com/remove-class-vanilla-vs-jquery
+
+    const swipeZone = document.querySelector('body');    
+    var hammer = new Hammer(swipeZone, {});
+    
+    hammer.on('pan', toggleSidebar);
+    
+    var leftSidebar = document.getElementById('leftSidebar');
+    var rightSidebar = document.getElementById('rightSidebar');
+
+    leftSidebar.addClass = addClass;
+    leftSidebar.removeClass = removeClass;
+    
+    rightSidebar.addClass = addClass;
+    rightSidebar.removeClass = removeClass;
+    
+    function toggleSidebar(ev) {
+        
+        console.log(ev);
+        if (ev.additionalEvent) {
+
+            if (ev.additionalEvent === 'panright') {
+                
+                if (ev.center.x < 300) {
+                    leftSidebar.removeClass('collapsed');           
+                }
+
+                if (ev.center.x > window.innerWidth - 300) {
+                    rightSidebar.addClass('collapsed');           
+                }
+            }
+            
+            if (ev.additionalEvent === 'panleft') {
+                
+                if (ev.center.x < 300) {
+                    leftSidebar.addClass('collapsed');
+                }
+
+                if (ev.center.x > window.innerWidth - 300) {
+                    rightSidebar.removeClass('collapsed');           
+                }
+            }
+
+        }
+        
+        console.log(ev.additionalEvent);
+        
+    }
+
+</script>
+
+</body>
+</html>

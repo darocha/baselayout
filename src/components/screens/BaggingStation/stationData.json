@@ -1,0 +1,81 @@
+[
+  {
+    "origin": "PICK 01, 23, 03, 12",
+    "LastKnown": "LOOP 1 PRINTER ID A0172",
+    "a": "a",
+    "Location": "01,02,03,04",
+    "PackSize": "20",
+    "Desc": "ASPIRIN SOLUBLE 300MG TABS",
+    "BatchNumber": "4582465",
+    "Exp": "01/01/2019",
+    "ToteID": "15426 /3",
+    "ScriptID": "1243759",
+    "ItemID": "156845",
+    "Description": "ASPIRIN SOLUBLE 300MG TABS"
+  },
+  {
+    "ToteID": "15427 /3",
+    "origin": "PEZ 24",
+    "LastKnown": "LOOP 1 MANUAL LABEL",
+    "a": "a",
+    "Desc": "Script",
+    "ScriptID": "384543",
+    "ItemID": "123759",
+    "Description": "Script"
+  },
+  {
+    "origin": "PEZ 15",
+    "LastKnown": "LOOP 1 AUTOMATIC LABEL",
+    "a": "b",
+    "Location": "01,02,03,04",
+    "PackSize": "20",
+    "Desc": "ENALAPRIL 5MG TABS",
+    "BatchNumber": "8363692",
+    "Exp": "01/01/2019",
+    "ToteID": "52576 / 1",
+    "ScriptID": "2745422",
+    "ItemID": "287574",
+    "Description": "ENALAPRIL 5MG TABS"
+  },
+  {
+    "origin": "ROBOT 2",
+    "LastKnown": "LOOP 1 EXCEPTIONS",
+    "a": "c",
+    "Location": "01,02,03,04",
+    "PackSize": "20",
+    "Desc": "TENO/EMTR/EFA 300/200/600 TABS",
+    "BatchNumber": "8265263",
+    "Exp": "01/01/2019",
+    "ToteID": "24679 / 3",
+    "ScriptID": "9264452",
+    "ItemID": "986754",
+    "Description": "TENO/EMTR/EFA 300/200/600 TABS"
+  },
+  {
+    "origin": "LOOP 2 OverSized",
+    "LastKnown": "N/A",
+    "a": "d",
+    "Location": "01,02,03,04",
+    "PackSize": "20",
+    "Desc": "AMLODIPINE 5MG TABS",
+    "BatchNumber": "5275632",
+    "Exp": "01/01/2019",
+    "ToteID": "42576 / 5",
+    "ScriptID": "3764473",
+    "ItemID": "648586",
+    "Description": "AMLODIPINE 5MG TABS"
+  },
+  {
+    "a": "e",
+    "Location": "01,02,03,04",
+    "PackSize": "20",
+    "Desc": "SIMVASTATIN 10MG 28 TABS",
+    "BatchNumber": "284625",
+    "Exp": "01/01/2019",
+    "ToteID": "35648 / 7",
+    "ScriptID": "3845443",
+    "ItemID": "4835372",
+    "Description": "SIMVASTATIN 10MG 28 TABS"
+  }
+  
+]

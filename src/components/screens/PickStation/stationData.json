@@ -1,0 +1,39 @@
+[
+  {
+    "Qty": "3",
+    "ItemID": "X001OV7",
+    "Description": "ASPIRIN SOLUBLE 300MG TABS",
+    "PackSize": "20",
+    "Batch": "4575728",
+    "Expiration": "01/ 01 / 2019",
+    "Location": "01, 22,07,13"
+  },
+  {
+    "Qty": "12",
+    "ItemID": "7181031",
+    "Description": "ENALAPRIL 5MG TABS",
+    "PackSize": "20",
+    "Batch": "4874282",
+    "Expiration": "01/ 01 / 2019",
+    "Location": "02, 12,06,02"
+  },
+  {
+    "Qty": "7",
+    "ItemID": "K0Q1406",
+    "Description": "SIMVASTATIN 10MG 28 TABS",
+    "PackSize": "20",
+    "Batch": "3125498",
+    "Expiration": "01/ 01 / 2019",
+    "Location": "03, 01,30,01"
+  },
+  {
+    "Qty": "9",
+    "ItemID": "5904580",
+    "Description": "TENO/EMTR/EFA 300/200/600 TABS",
+    "PackSize": "20",
+    "Batch": "7549625",
+    "Expiration": "01/ 01 / 2019",
+    "Location": "01,02,03,07"
+  }
+
+]

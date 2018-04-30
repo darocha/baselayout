@@ -1,0 +1,27 @@
+{
+  "MainColumns": [
+    {
+      "Name": "Qty",
+      "Width": "150px"
+    },
+    {
+      "Name": "ItemID",
+      "Width": "150px"
+    },
+    {
+      "Name": "Description"
+    },
+    {
+      "Name": "PackSize"
+    },
+    {
+      "Name": "Batch"
+    },
+    {
+      "Name": "Expiration"
+    },
+    {
+      "Name": "Location"
+    }
+  ]
+}

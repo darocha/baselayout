@@ -1,0 +1,27 @@
+{
+  "MainColumns": [
+    {
+      "Name": "ChuteID"
+    },
+    {
+      "Name": "PrinterID"
+    },
+    {
+      "Name": "ToteID"
+    },
+    {
+      "Name": "ScriptID"
+    },
+    {
+      "Name": "ItemCount"
+    },
+    {
+      "Name": "DeliveryGrpID"
+    },
+    {
+      "Name": "OversizeOrder"
+    }
+  ]
+}
+
+                     

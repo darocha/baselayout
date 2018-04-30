@@ -1,0 +1,159 @@
+html, body {
+    height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+
+}
+
+#root {
+  height: 100%;
+}
+
+.flex {display: flex; }
+.flex-auto {flex: auto;}
+.flex-column {flex-flow: column;}
+.flex-row {flex-flow: row;}
+.flex-center {justify-content: center; align-items: center;}
+.flex-full { flex: 1; }
+.flex-top { align-items: flex-start;}
+
+.App {
+  
+  display: flex;
+  height: 100%;
+  
+}
+.spin {
+    animation: App-logo-spin infinite 20s linear;
+    
+}
+.App-logo {
+  
+  height: 80px;
+}
+
+body .navbar-brand {
+    margin-right: 50px;
+    margin-left: 5px;
+}
+
+.layout-main {
+  height: 100%;
+  width: 100%;
+}
+
+.layout-sidebar {
+  background: #f7f7f7;
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s ease-out 0s;
+  min-width: 300px;
+  max-width: 300px;
+  transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1) 0s;
+  overflow: hidden;
+  display: flex;
+}
+
+body .row {
+    width: 100%;
+    margin: 0;
+}
+body .col { height: 100%; margin:0;}
+
+.layout-left-sidebar {
+  order: 1;
+}
+
+.layout-right-sidebar {
+  order: 3;
+}
+
+.layout-left-sidebar .screen { 
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.layout-right-sidebar .screen { 
+  background: #f0f0f0;
+}
+
+.layout-left-sidebar.collapsed { 
+  margin-left:-300px; 
+}
+.layout-right-sidebar.collapsed { 
+  margin-right:-300px; 
+}
+.layout-center {
+    height: 100%;
+    background: #f7f7f7;
+    width: 100%;
+    order: 2;
+    transition: all 0.3s ease-out 0s;
+    display: flex;
+    flex: 1;
+}
+
+.screen {
+  padding:20px;
+  margin:0px;
+  background:#fff;
+  flex:1;
+  overflow: auto;
+}
+
+.top-navbar {
+  min-height: 100px;
+}
+
+header {
+  transition: all 0.3s ease-out 0s;
+}
+
+footer {
+  height: 50px;
+  background: #e7e7e7;
+  transition: all 0.3s ease-out 0s;
+  min-height: 50px;
+}
+
+.smooth {
+  transition: all 0.3s ease-out 0s;
+}
+
+.layout-sidebar .list-group-item.active a, .layout-sidebar.active a:visited {
+  color: #fff;
+}
+
+.layout-sidebar nav, .layout-sidebar  ul {
+  flex: 1;
+}
+
+.layout-sidebar .list-group-item a, .layout-sidebar a:visited {
+  text-decoration: none;
+}
+
+.layout-sidebar .list-group-item a:hover, .layout-sidebar a:visited:hover {
+  text-decoration: none;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.k-i-add:before, .k-i-plus:before, .k-plus:before {
+   
+}
+
+.k-i-kpi-trend-equal:before, .k-i-minus:before, .k-minus:before {
+    
+}
